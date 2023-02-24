@@ -11,7 +11,7 @@
     />
     
     <script type="module" crossorigin src="/next_step/assets/index-f905ba7a.js"></script>
-    <link rel="stylesheet" href="/next_step/assets/index-7160492d.css">
+    <link rel="stylesheet" href="/next_step/assets/index-39ca28e5.css">
   </head>
   <body>
     <!-- Loads the specified .html file -->
@@ -92,11 +92,41 @@
 
 
       <section class="callback">
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ea omnis
-    eaque accusantium minus consequatur adipisci ipsum, blanditiis molestiae
-    libero, quis ipsa aut! Illo dicta delectus sequi. Hic, quidem sint.
-  </p>
+  <div class="container">
+    <img
+      class="img-callback"
+      src="../img/callback/callback@1.jpg"
+      srcset="
+        ../img/callback/callback@1.jpg 1x,
+        ../img/callback/callback@2.jpg 2x
+      "
+      width="680"
+      height="460"
+      alt="callback"
+    />
+    <div class="callback-form">
+      <form class="callback_form">
+        <p class="head-callback">Request Callback</p>
+        <input
+          type="text"
+          name="name"
+          class="name-callback"
+          placeholder="Enter your name"
+          minlength="3"
+        />
+        <input
+          class="name-callback"
+          type="email"
+          name="mail"
+          placeholder="Enter email*"
+          required
+          minlength="6"
+          maxlength="12"
+        />
+        <button class="btn-callback" type="submit">send</button>
+      </form>
+    </div>
+  </div>
 </section>
 
     </main>
