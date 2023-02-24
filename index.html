@@ -5,9 +5,13 @@
     <link type="image/svg+xml" href="/next_step/favicon.svg" rel="icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     
-    <script type="module" crossorigin src="/next_step/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/next_step/assets/index-94ec3edd.css">
+    <script type="module" crossorigin src="/next_step/assets/index-f905ba7a.js"></script>
+    <link rel="stylesheet" href="/next_step/assets/index-7160492d.css">
   </head>
   <body>
     <!-- Loads the specified .html file -->
@@ -21,8 +25,34 @@
 
     <main>
       <section class="hero">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus illum magni voluptatum quidem reprehenderit veritatis delectus expedita cum, ipsa natus. Explicabo recusandae rem obcaecati molestias voluptatibus beatae quo odio quaerat?</p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
+    illum magni voluptatum quidem reprehenderit veritatis delectus expedita cum,
+    ipsa natus. Explicabo recusandae rem obcaecati molestias voluptatibus beatae
+    quo odio quaerat?
+  </p>
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
 </section>
+
 
       <section class="features"> 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ea omnis eaque accusantium minus consequatur adipisci ipsum, blanditiis molestiae libero, quis ipsa aut! Illo dicta delectus sequi. Hic, quidem sint.</p>
@@ -80,5 +110,6 @@
 
 
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   </body>
 </html>
