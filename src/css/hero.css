@@ -1,3 +1,11 @@
 .hero {
-    background-color:  teal;
+  background-color: teal;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: green;
 }
