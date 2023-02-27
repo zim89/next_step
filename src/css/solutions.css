@@ -1,12 +1,8 @@
-.solutions {
-}
 .solutions-conteiner {
   display: flex;
   justify-content: center;
 }
 
-.solution-left-side {
-}
 .solution-right-side {
   background-color: #28a745;
   padding-top: 84px;
